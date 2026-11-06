@@ -75,13 +75,13 @@ Run the notebooks in the order shown, because later notebooks depend on the proc
 
 | Order | Notebook | Blocks | Main purpose |
 | --- | --- | --- | --- |
-| 1 | [`01_Data_Preparation.ipynb`](01_Data_Preparation.ipynb) | 01–05 | Select, inspect, preprocess, and save the MRI image matrix |
-| 2 | [`02_PCA.ipynb`](02_PCA.ipynb) | 06–10 | Centering, explained variance, component selection, and reconstruction |
-| 3 | [`03_SVD.ipynb`](03_SVD.ipynb) | 11–15 | Singular values, low-rank reconstruction, and energy thresholds |
-| 4 | [`04_Eigendecomposition.ipynb`](04_Eigendecomposition.ipynb) | 16–20 | Gram matrix, eigenvalues, spectral energy, and reconstruction |
-| 5 | [`05_Least_Squares.ipynb`](05_Least_Squares.ipynb) | 21–25 | Reduced-feature regression, residuals, conditioning, and feature-count comparisons |
+| 1 | [`01_Data_Preparation.ipynb`](notebooks/01_Data_Preparation.ipynb) | 01–05 | Select, inspect, preprocess, and save the MRI image matrix |
+| 2 | [`02_PCA.ipynb`](notebooks/02_PCA.ipynb) | 06–10 | Centering, explained variance, component selection, and reconstruction |
+| 3 | [`03_SVD.ipynb`](notebooks/03_SVD.ipynb) | 11–15 | Singular values, low-rank reconstruction, and energy thresholds |
+| 4 | [`04_Eigendecomposition.ipynb`](notebooks/04_Eigendecomposition.ipynb) | 16–20 | Gram matrix, eigenvalues, spectral energy, and reconstruction |
+| 5 | [`05_Least_Squares.ipynb`](notebooks/05_Least_Squares.ipynb) | 21–25 | Reduced-feature regression, residuals, conditioning, and feature-count comparisons |
 
-These links assume the five notebooks are placed in the repository root alongside this README. If the repository uses a `notebooks/` directory, adjust the links before publishing.
+
 
 ## Running the analysis
 
