@@ -103,9 +103,12 @@ data/processed/filenames_mri_400.json
 
 The dataset selection uses a fixed random seed (`42`) and selects 100 images per category from the available source files. Reproducing the **exact same subset** requires matching the original archive/version and input file set; the source-version audit is not yet closed. The repository's standalone reproducibility has **not yet been independently re-tested**.
 
-## Dataset provenance and licensing — verification pending
+## Dataset provenance and licensing 
 
-Working records identify **Masoud Nickparvar's Brain Tumor MRI dataset on Kaggle** as the probable source and **CC BY 4.0** as the recorded license. However, the **exact original ZIP archive/version and applicable attribution/license terms still require confirmation before public release**. Do not interpret this note as a verified license statement. Source URL, version, and required attribution will be added after verification.
+The probable source is **Masoud Nickparvar's Brain Tumor MRI Dataset on Kaggle**:
+https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
+
+The Kaggle listing currently identifies the license as **CC0: Public Domain**. However, the exact historical dataset archive/version used in this project has not been independently established. The original MRI images are not included in this repository.
 
 The original medical images, generated processed arrays, and copied datasets should not be publicly redistributed until the source and redistribution permissions are confirmed.
 
@@ -124,7 +127,7 @@ The same methods are useful beyond medical imaging: multivariate exploratory ana
 
 ## Status
 
-**Portfolio preparation in progress — not yet published.** The notebooks' calculations and saved outputs were previously checked; publication checks for provenance, standalone reproducibility, package requirements, repository structure, and secrets remain pending.
+**Publication status: Final review in progress.** All five notebooks have been executed successfully in Google Colab. The repository structure, dependencies, documentation, and notebook links have been reviewed. A preliminary security audit of the current repository files found no exposed credentials. The exact historical dataset version and independent clean-environment reproducibility remain unverified. Public release is the next planned step.
 
 ## Author
 
